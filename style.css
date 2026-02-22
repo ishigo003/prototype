@@ -1,0 +1,114 @@
+nav {
+	display: flex;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	color: pink;
+}
+
+.left,
+.right {
+	display: flex;
+	gap: 20px;
+}
+
+.right {
+	margin-left: auto;
+}
+
+head {
+	background: black;
+	padding: 15px;
+} 
+
+.page-home a[href*="kiro"] {
+	color: red;
+}
+
+.page-home a[href*="kiro"]:hover {
+	color: pink;
+}
+
+.log a[href*="signup"], 
+.sign a[href*="login"] {
+	color: violet;
+}
+
+.log a[href*="signup"]:hover, 
+.sign a[href*="login"]:hover {
+	color: pink;
+}
+
+body {
+	background: black;
+}
+
+.page-home h5 {
+	color: blue;
+}
+
+p,
+label,
+h2 {
+	color: white;
+}
+
+.signin-cont,
+.login-cont {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px);
+}
+
+.signupbox,
+.loginbox {
+  background: #222;
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+}
+
+.signupbox input,
+.loginbox input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+}
+
+.signupbox button,
+.loginbox button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background: violet;
+  color: white;
+  cursor: pointer;
+}
+
+.signupbox button:hover,
+.loginbox button:hover {
+  background: purple;
+}
+
+.NameNotFound {
+	background: #222;
+	height: 40px;
+	border: 2px solid purple;
+	border-radius: 13px;
+	display: flex;
+	align-items: center;
+	
+}
+
+.NameNotFound a {
+	font-weight: bold;
+}
